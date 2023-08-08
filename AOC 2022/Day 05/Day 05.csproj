@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9451A5C6-DD39-45F3-8A5B-6CA632561549}</ProjectGuid>
+    <ProjectGuid>{B4149290-22B3-45A7-AA7F-0D7F41F1B839}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AOC_2022</RootNamespace>
-    <AssemblyName>AOC 2022</AssemblyName>
+    <RootNamespace>Day_05</RootNamespace>
+    <AssemblyName>Day 05</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="input.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
